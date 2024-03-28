@@ -2,7 +2,7 @@ name: Node.js CI
 
 on:
   push:
-    - master
+    branches: [ master ]
   workflow_dispatch:
 jobs:
   run_pull:

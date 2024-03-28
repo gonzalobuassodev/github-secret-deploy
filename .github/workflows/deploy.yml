@@ -23,5 +23,6 @@ jobs:
             cd /home/apps/github-secret-deploy
             git pull origin master
             npm install 
-            npm run start
             exit
+      - run: node index.js
+   

@@ -18,7 +18,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd ~/home/apps/github-secret-deploy
+            cd /home/apps/github-secret-deploy
             git pull origin master
             npm install 
             npm run build

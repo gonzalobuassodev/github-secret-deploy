@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "ncc build index.js -o dist",
     "start": "node index.js"
   },
   "keywords": [],
